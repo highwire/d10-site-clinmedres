@@ -1,0 +1,27 @@
+uuid: f027f4a9-382b-45de-9849-9f7574eaa0c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.pdf_extract_img
+    - node.type.relationship
+  module:
+    - file
+id: node.relationship.pdf_extract_img
+field_name: pdf_extract_img
+entity_type: node
+bundle: relationship
+label: pdf-extract-img
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

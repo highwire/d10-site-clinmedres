@@ -1,0 +1,21 @@
+uuid: 04b7aff6-c639-4a57-9ddf-3766fc0f5634
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_videos
+    - node.type.media
+id: node.media.has_videos
+field_name: has_videos
+entity_type: node
+bundle: media
+label: has-videos
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

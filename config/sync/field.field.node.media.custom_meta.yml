@@ -1,0 +1,39 @@
+uuid: 51564cff-3b60-4744-ab2b-8fc1316a60c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.custom_meta
+    - node.type.media
+  module:
+    - double_field
+id: node.media.custom_meta
+field_name: custom_meta
+entity_type: node
+bundle: media
+label: custom-meta
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

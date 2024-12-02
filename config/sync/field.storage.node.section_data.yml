@@ -1,0 +1,19 @@
+uuid: e76e6e34-344e-4f4e-8099-a9056f5ae300
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.section_data
+field_name: section_data
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

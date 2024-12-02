@@ -1,0 +1,14 @@
+uuid: 4a58a984-70ea-44ab-a50c-6436d0a15c56
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.online_subscriber
+  module:
+    - user
+id: user_remove_role_action.online_subscriber
+label: 'Remove the HighWire User - Online Subscriber role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: online_subscriber

@@ -1,0 +1,21 @@
+uuid: badeb6d0-50ab-4381-98f4-78719b0656ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.parent
+    - node.type.media
+id: node.media.parent
+field_name: parent
+entity_type: node
+bundle: media
+label: parent
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

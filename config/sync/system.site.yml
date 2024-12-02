@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
+uuid: 077d50d4-e35b-4ad6-b156-40af9f7d6823
+name: 'Demo Journal of Medical Association'
+mail: no-reply@highwirepress.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

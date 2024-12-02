@@ -1,0 +1,19 @@
+uuid: b372cfb7-c2b0-4929-971f-64eca3840989
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.apath
+    - node.type.journal_volume
+id: node.journal_volume.apath
+field_name: apath
+entity_type: node
+bundle: journal_volume
+label: Apath
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

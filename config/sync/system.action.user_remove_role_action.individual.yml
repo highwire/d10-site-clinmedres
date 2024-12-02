@@ -1,0 +1,14 @@
+uuid: e9a45da0-885f-4331-80ee-0efbfca83ea7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.individual
+  module:
+    - user
+id: user_remove_role_action.individual
+label: 'Remove the HighWire User - Individual role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: individual
