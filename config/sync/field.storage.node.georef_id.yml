@@ -1,0 +1,19 @@
+uuid: 7768f720-f00c-4603-8411-a8bafed8d5d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.georef_id
+field_name: georef_id
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

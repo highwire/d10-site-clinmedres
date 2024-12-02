@@ -1,0 +1,21 @@
+uuid: d9bcc428-32da-4872-8158-f98e7f366b94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_figures_or_tables
+    - node.type.media
+id: node.media.has_figures_or_tables
+field_name: has_figures_or_tables
+entity_type: node
+bundle: media
+label: has-figures-or-tables
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

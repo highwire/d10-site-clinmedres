@@ -1,0 +1,18 @@
+uuid: 3008626b-6d97-41f6-b166-43185ab88b09
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.has_full_text
+field_name: has_full_text
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

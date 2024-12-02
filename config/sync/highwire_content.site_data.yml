@@ -1,0 +1,24 @@
+highwire_content_site_data:
+  clinmedres:
+    id: clinmedres
+    publisher-id: mcrs
+    status: production
+    type: journal
+    name: 'Clinical Medicine & Research'
+    abbrev:
+      medline: 'Clin Med Res'
+      publisher: 'Clin Med Res'
+    url:
+      ac_service: 'http://clinmedres-ac.highwire.org'
+      ac_service_development: 'http://clinmedres-ac-dev.highwire.org'
+      development: 'http://dev.clinmedres.org'
+      legacy: 'http://hwmaint.clinmedres.org'
+      legacy_development: 'http://hwmaint.clinmedres.org:4040'
+      legacy_internal: 'http://hwmaint.clinmedres.org'
+      legacy_internal_development: 'http://hwmaint.clinmedres.highwire.org:4040'
+      production: 'http://www.clinmedres.org'
+    alert-types:
+      production: 'keyauth_alerts,citedby_alerts,toc_alerts,toc_awareness_alerts,announcements,pap_alerts'
+    content-features:
+      development: pap
+      production: pap

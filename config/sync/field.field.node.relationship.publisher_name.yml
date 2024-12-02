@@ -1,0 +1,22 @@
+uuid: 45f5ce5c-3608-4c40-98d5-d72b26cd1854
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.publisher_name
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.publisher_name
+field_name: publisher_name
+entity_type: node
+bundle: relationship
+label: publisher-name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

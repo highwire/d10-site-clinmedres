@@ -1,0 +1,21 @@
+uuid: 62c5d344-be82-4137-89d9-406fa9679db0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.secondary
+    - node.type.journal
+id: node.journal.secondary
+field_name: secondary
+entity_type: node
+bundle: journal
+label: secondary
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

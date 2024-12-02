@@ -1,0 +1,21 @@
+uuid: dc587866-db87-4f97-a956-0e99d2791d9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.adjuncts
+    - node.type.journal_issue
+id: node.journal_issue.adjuncts
+field_name: adjuncts
+entity_type: node
+bundle: journal_issue
+label: adjuncts
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 59e286f6-6170-4e2f-802f-3e624b7f27b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.pubmed_id
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.pubmed_id
+field_name: pubmed_id
+entity_type: node
+bundle: relationship
+label: pubmed-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

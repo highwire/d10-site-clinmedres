@@ -1,0 +1,22 @@
+uuid: 481321a1-55e7-401f-8a5a-636070707f4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.overline
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.overline
+field_name: overline
+entity_type: node
+bundle: relationship
+label: overline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

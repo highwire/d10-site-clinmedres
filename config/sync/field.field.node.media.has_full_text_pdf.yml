@@ -1,0 +1,21 @@
+uuid: 528866a8-8761-4ab7-8816-e66cc3de21ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_full_text_pdf
+    - node.type.media
+id: node.media.has_full_text_pdf
+field_name: has_full_text_pdf
+entity_type: node
+bundle: media
+label: has-full-text-pdf
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
