@@ -1,0 +1,22 @@
+uuid: 583aa9fe-6e6d-4030-9e4a-6fa4873372ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.copyright_info
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.copyright_info
+field_name: copyright_info
+entity_type: node
+bundle: relationship
+label: copyright-info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

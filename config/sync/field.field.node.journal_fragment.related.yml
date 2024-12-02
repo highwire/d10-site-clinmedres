@@ -1,0 +1,21 @@
+uuid: a3bc2cf9-6a2f-4b80-8f68-e2b96a8a04d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.related
+    - node.type.journal_fragment
+id: node.journal_fragment.related
+field_name: related
+entity_type: node
+bundle: journal_fragment
+label: related
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

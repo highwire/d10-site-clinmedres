@@ -1,0 +1,22 @@
+uuid: 37748370-1519-4b2f-bb5c-4e49f9c8e574
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.col_url
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.col_url
+field_name: col_url
+entity_type: node
+bundle: relationship
+label: col-url
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

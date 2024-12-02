@@ -1,0 +1,14 @@
+uuid: 0ea99b2e-888c-48d2-8e32-29af8c6ea5bc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4Y29iyt6WxNetEJ_NW_n7NjQB9WZ8eEEa2k7-LjZKLA
+id: current_page_index_author
+label: 'Current Page Index Author'
+description: ''
+use_admin_theme: false
+path: '/content/{volume}/{issue}/index-by-author'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

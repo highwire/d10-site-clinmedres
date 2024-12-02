@@ -1,0 +1,21 @@
+uuid: b309a468-f9a6-4365-a48f-e73eb72f3a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.final_published
+    - node.type.journal_article
+  module:
+    - datetime_range
+id: node.journal_article.final_published
+field_name: final_published
+entity_type: node
+bundle: journal_article
+label: final-published
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

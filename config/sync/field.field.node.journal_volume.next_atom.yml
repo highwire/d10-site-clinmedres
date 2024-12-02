@@ -1,0 +1,21 @@
+uuid: 1cb7c964-c20e-479e-8523-951291b876c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.next_atom
+    - node.type.journal_volume
+id: node.journal_volume.next_atom
+field_name: next_atom
+entity_type: node
+bundle: journal_volume
+label: next-atom
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

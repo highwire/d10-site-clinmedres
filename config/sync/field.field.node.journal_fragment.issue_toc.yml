@@ -1,0 +1,22 @@
+uuid: f24de3a1-30a6-42a6-9cd8-3685276ee539
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue_toc
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.issue_toc
+field_name: issue_toc
+entity_type: node
+bundle: journal_fragment
+label: issue-toc
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

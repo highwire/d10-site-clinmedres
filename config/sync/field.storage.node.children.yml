@@ -1,0 +1,19 @@
+uuid: 50f0dbaf-f90c-453e-9fb3-65a2f98145be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.children
+field_name: children
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

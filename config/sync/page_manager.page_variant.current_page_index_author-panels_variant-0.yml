@@ -1,0 +1,133 @@
+uuid: 9f6156bf-31c0-4487-afe1-bf5d187e0caf
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.current_page_index_author
+  module:
+    - highwire_top_topics
+    - jnl_core
+    - journal_article_detail
+    - panels
+_core:
+  default_config_hash: h1zd4Cb7iY6EgO6BMJDTsT0mY64QTyIFDqSBAC6zfFE
+id: current_page_index_author-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    a814223e-04b0-49a7-ae4b-e9bc4ddac61a:
+      id: jnl_current_issue_index_author
+      label: 'Current Issue Index Author Section'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: left
+      weight: -2
+      uuid: a814223e-04b0-49a7-ae4b-e9bc4ddac61a
+    e2bfd3ed-6497-40a1-af24-f2f8fdde0cd4:
+      id: jnl_core_backtotop
+      label: 'Back to top'
+      label_display: '0'
+      provider: jnl_core
+      context_mapping: {  }
+      region: left
+      weight: -1
+      uuid: e2bfd3ed-6497-40a1-af24-f2f8fdde0cd4
+    207f485f-bd5b-466c-84cb-697223e2158c:
+      id: jnl_current_issue
+      label: 'In this Issue'
+      label_display: '0'
+      provider: journal_article_detail
+      context_mapping: {  }
+      region: right
+      weight: -2
+      uuid: 207f485f-bd5b-466c-84cb-697223e2158c
+    48a98ad9-00cf-49af-96cc-c8f6c0b1fe61:
+      id: 'block_content:7f4b9182-0dc3-49e5-b7cf-99c77573124b'
+      label: 'ion TOC Page Ad'
+      label_display: '0'
+      provider: block_content
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: right
+      weight: -1
+      uuid: 48a98ad9-00cf-49af-96cc-c8f6c0b1fe61
+    fd18e608-f644-48dd-a532-54550e6f2fa3:
+      id: most_read_cited_topics
+      label: 'Most Read, Cited, Topics'
+      label_display: '0'
+      provider: highwire_top_topics
+      context_mapping: {  }
+      region: right
+      weight: 0
+      uuid: fd18e608-f644-48dd-a532-54550e6f2fa3
+      top_topics: 1
+      top_topics_title: ''
+      most_read: 1
+      most_read_title: ''
+      most_cited: 0
+      most_cited_title: ''
+      eletter_articles: 0
+      eletter_articles_title: ''
+      limit: '5'
+      corpus: '[site:default_jcode]'
+      read_more: 1
+    b3625934-919f-4d8e-8213-a1384dd8108c:
+      id: page_title_block
+      label: 'Page title'
+      label_display: '0'
+      provider: core
+      context_mapping: {  }
+      region: top
+      weight: 0
+      uuid: b3625934-919f-4d8e-8213-a1384dd8108c
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 2ab19116-fe62-4ac7-9be3-fd54d61a4834
+  page_title: 'Table of Contents'
+  layout: bs_2col_stacked
+  layout_settings:
+    label: ''
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 0
+      attributes: 'class|journal-page journal-article'
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 0
+        attributes: class|journals-articles-top
+      left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-7 col-large-tablet-8 article__leftbar'
+      right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 0
+        attributes: 'class|col-12 col-medium-tablet-5 col-large-tablet-4 article__rightbar'
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: current_page_index_author-panels_variant-0
+page: current_page_index_author
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

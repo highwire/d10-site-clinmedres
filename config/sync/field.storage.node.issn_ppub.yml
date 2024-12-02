@@ -1,0 +1,19 @@
+uuid: d986d604-bd0a-474d-ac5c-1ca5d6d909a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.issn_ppub
+field_name: issn_ppub
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

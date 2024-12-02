@@ -1,0 +1,19 @@
+uuid: c030a45d-3308-49fa-ad15-6e37711d170f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.copyright_info
+field_name: copyright_info
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

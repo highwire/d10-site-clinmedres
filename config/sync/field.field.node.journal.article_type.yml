@@ -1,0 +1,22 @@
+uuid: 5d06d154-0811-4414-9c2d-cc863be062c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.article_type
+    - node.type.journal
+  module:
+    - text
+id: node.journal.article_type
+field_name: article_type
+entity_type: node
+bundle: journal
+label: article-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
